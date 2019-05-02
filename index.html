@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Before</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h2>Before: Original Interface for UNA Portal Term Selection </h2>
+<p><a href="https://jessbrown1908.github.io/final-project/">Link to repo.</a><br><a href="pages/after.html"> Link to improved page.</a></p>
+<p><strong>The Issue</strong><br>Selecting a term requires the user to scroll numerous items to select the correct one then to click the submit button after. The user also has to click a reset button to dismiss the previous term they selected to choose another. This can be improved by having sepearate buttons for the semesters and numbers without having to scroll. It can also be submitted after the field requirements are obtained from the clicks and can reset itself upon further clicks.<br><br> Below is the functionality of the current interface.</p>
+<FORM ACTION="/UNAP/bwckgens.p_proc_term_date" METHOD="POST" onSubmit="return checkSubmit()">
+<INPUT TYPE="hidden" NAME="p_calling_proc" VALUE="P_CrseSearch">
+<TABLE  CLASS="dataentrytable" summary="This layout table is used for term selection." width="100%"><CAPTION class="captiontext">Search by Term: </CAPTION>
+<TR>
+<TD CLASS="dedefault"><LABEL for=term_input_id><SPAN class="fieldlabeltextinvisible">Term</SPAN></LABEL>
+<SELECT NAME="p_term" SIZE="1"  BYPASS_ESC=>"Y" ID="term_input_id">
+<OPTION VALUE="">None</OPTION>
+<OPTION VALUE="202010">Fall 2019</OPTION>
+<OPTION VALUE="201930">Summer 2019</OPTION>
+<OPTION VALUE="201920">Spring 2019</OPTION>
+<OPTION VALUE="201910">Fall 2018 (View only)</OPTION>
+<OPTION VALUE="201830">Summer 2018 (View only)</OPTION>
+<OPTION VALUE="201820">Spring 2018 (View only)</OPTION>
+<OPTION VALUE="201810">Fall 2017 (View only)</OPTION>
+<OPTION VALUE="201730">Summer 2017 (View only)</OPTION>
+<OPTION VALUE="201720">Spring 2017 (View only)</OPTION>
+<OPTION VALUE="201710">Fall 2016 (View only)</OPTION>
+<OPTION VALUE="201630">Summer 2016 (View only)</OPTION>
+<OPTION VALUE="201620">Spring 2016 (View only)</OPTION>
+<OPTION VALUE="201610">Fall 2015 (View only)</OPTION>
+<OPTION VALUE="201530">Summer 2015 (View only)</OPTION>
+<OPTION VALUE="201520">Spring 2015 (View only)</OPTION>
+<OPTION VALUE="201510">Fall 2014 (View only)</OPTION>
+<OPTION VALUE="201430">Summer 2014 (View only)</OPTION>
+<OPTION VALUE="201420">Spring 2014 (View only)</OPTION>
+<OPTION VALUE="201410">Fall 2013 (View only)</OPTION>
+<OPTION VALUE="201330">Summer 2013 (View only)</OPTION>
+<OPTION VALUE="201320">Spring 2013 (View only)</OPTION>
+<OPTION VALUE="201310">Fall 2012 (View only)</OPTION>
+<OPTION VALUE="201230">Summer 2012 (View only)</OPTION>
+<OPTION VALUE="201220">Spring 2012 (View only)</OPTION>
+<OPTION VALUE="201210">Fall 2011 (View only)</OPTION>
+<OPTION VALUE="201130">Summer 2011 (View only)</OPTION>
+<OPTION VALUE="201120">Spring 2011 (View only)</OPTION>
+<OPTION VALUE="201110">Fall 2010 (View only)</OPTION>
+<OPTION VALUE="201030">Summer 2010 (View only)</OPTION>
+<OPTION VALUE="201020">Spring 2010 (View only)</OPTION>
+<OPTION VALUE="201010">Fall 2009 (View only)</OPTION>
+<OPTION VALUE="200930">Summer 2009 (View only)</OPTION>
+<OPTION VALUE="200920">Spring 2009 (View only)</OPTION>
+<OPTION VALUE="200910">Fall 2008 (View only)</OPTION>
+<OPTION VALUE="200830">Summer 2008 (View only)</OPTION>
+<OPTION VALUE="200820">Spring 2008 (View only)</OPTION>
+<OPTION VALUE="200810">Fall 2007 (View only)</OPTION>
+<OPTION VALUE="200730">Summer 2007 (View only)</OPTION>
+<OPTION VALUE="200720">Spring 2007 (View only)</OPTION>
+<OPTION VALUE="200710">Fall 2006 (View only)</OPTION>
+<OPTION VALUE="200630">Summer 2006 (View only)</OPTION>
+<OPTION VALUE="200620">Spring 2006 (View only)</OPTION>
+<OPTION VALUE="200610">Fall 2005 (View only)</OPTION>
+<OPTION VALUE="200530">Summer 2005 (View only)</OPTION>
+<OPTION VALUE="200520">Spring 2005 (View only)</OPTION>
+<OPTION VALUE="200510">Fall 2004 (View only)</OPTION>
+<OPTION VALUE="200430">Summer 2004 (View only)</OPTION>
+<OPTION VALUE="200420">Spring 2004 (View only)</OPTION>
+<OPTION VALUE="200410">Fall 2003 (View only)</OPTION>
+<OPTION VALUE="200330">Summer 2003 (View only)</OPTION>
+<OPTION VALUE="200320">Spring 2003 (View only)</OPTION>
+<OPTION VALUE="200310">Fall 2002 (View only)</OPTION>
+<OPTION VALUE="200230">Summer 2002 (View only)</OPTION>
+<OPTION VALUE="200220">Spring 2002 (View only)</OPTION>
+<OPTION VALUE="200210">Fall 2001 (View only)</OPTION>
+<OPTION VALUE="200130">Summer 2001 (View only)</OPTION>
+<OPTION VALUE="200120">Spring 2001 (View only)</OPTION>
+<OPTION VALUE="200110">Fall 2000 (View only)</OPTION>
+</SELECT>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<BR>
+<INPUT TYPE="submit" VALUE="Submit">
+<INPUT TYPE="reset" VALUE="Reset">
+</FORM>
+<br>
+  <p>Below is a screenshot of the current UNA Portal interface displaying how the items cover a rather big section of the screen which would only increase in the future. </p>
+  
+<img src="img/portal.png" alt="Screenshot of UNA Portal" />
+  
+  
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 12px;
+}
+
+#title-box {
+  position: absolute;
+  left: 20%;
+  top: 110px;
+  font-family: "Indie Flower", cursive;
+}
+
+#selection-box {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+}
+#semester-box {
+  margin: 2px;
+  position: absolute;
+  top: 5px;
+}
+#day-box,
+#year-box {
+  position: absolute;
+  margin: 2px;
+  top: 300px;
+  left: 160px;
+}
+#console-box {
+  position: absolute;
+  top: 190px;
+  right: 15%;
+  height: 400px;
+  width: 300px;
+  background-color: #000;
+  color: yellow;
+  font-family: monospace;
+  padding: 6px;
+}
+
+#after-box {
+  position: absolute;
+  top: 190px;
+  left: 6%;
+  width: 580px;
+  height: 350px;
+  background-color: LightSeaGreen;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.after-semester {
+  display: flex;
+  width: 420px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+.semester-box {
+  height: 50px;
+  width: 80px;
+  background: DarkTurquoise;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.after-years-thousands {
+  list-style: none;
+  display: flex;
+  width: 75px;
+  height: 200px;
+  flex-flow: column;
+  border: solid 1px;
+  float: left;
+}
+.year-thousands-box {
+  height: 50px;
+  width: 50px;
+  background: DarkTurquoise;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.after-years-tens {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  float: left;
+}
+.year-tens-box {
+  height: 50px;
+  width: 50px;
+  background: DarkTurquoise;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.after-years-ones {
+  list-style: none;
+  display: flex;
+  width: 310px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+}
+.year-ones-box {
+  height: 50px;
+  width: 50px;
+  background: DarkTurquoise;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.selected {
+  background-color: yellow;
+  font-weight: bold;
+}

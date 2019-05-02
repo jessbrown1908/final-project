@@ -1,0 +1,77 @@
+
+
+
+@media print
+{
+  /* style sheet for print goes here */
+
+BODY {
+font-family: Arial, verdana, helvetica, sans-serif;
+font-style: normal;
+text-align: left;
+/* BROWSER CONSIDERATION - Override browser settings for BODY margin */
+margin-top: 0%;
+margin-left: 0%;
+
+}
+
+DIV.backlinkdiv {
+display:none
+}
+
+DIV.pageheaderdiv2 {
+display: none
+}
+
+DIV.headerlinksdiv {
+display: none
+}
+/* Defect LN71-008-1740 */
+DIV.headerlinksdiv2 {
+display: none
+}
+
+DIV.poweredbydiv {
+display: none
+}
+
+DIV.footerlinksdiv{
+display: none
+}
+
+HR {
+color: #FFFFFF;
+text-align: left;
+vertical-align: top;
+margin-top: 0px;
+}
+
+/* Defect 1-4V8J50 */
+H1 {
+display: none
+}
+
+/* Defect LN71-008-1740 */
+SPAN.pageheaderlinks {
+display: none
+}
+
+Table.datadisplaytable{
+font-size :80%
+}
+
+
+TABLE TD.dddefault {
+font-size:75%;
+}
+
+TABLE TH.dddefault {
+font-size: 80%;
+}
+
+Table TH.ddlabel
+{
+font-size: 80%;
+}
+}
+
